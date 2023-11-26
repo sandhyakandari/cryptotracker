@@ -5,7 +5,7 @@ import Header from "../components/common/Header/index";
 import Loader from "../components/common/Loader/index";
 import TabsComponent from "../components/dashboard/Tabs";
 import { get100Coins } from "../functions/get100Coins";
-
+import { Link } from "react-router-dom";
 function WatchlistPage() {
   const coins = JSON.parse(localStorage.getItem("watchlist")) || [];
   const [myWatchlist, setMyWatchlist] = useState([]);
