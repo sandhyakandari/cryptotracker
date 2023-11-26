@@ -1,13 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&display=swap');
+
+:root{
+  --white:#fbf4f4;
+  --black:rgb(20, 20, 20);
+  --blue:#3a80e9;
+  --darkgrey:#1b1b1b;
+  --green:#61c96f;
+  --red:#f94141;
+  --grey:#888;
+
+}
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ background-color:var(--black);
+ color:var(--white); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::selection{
+  background-color: var(--blue);
+  color:var(--red);
+}
+/* width */
+::-webkit-scrollbar {
+  width:0.3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  background: var(--black);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--blue); 
+  border-radius: 3rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+a{
+  text-decoration: none; 
+color:var(--white);
+}
+
+.grey-wrapper{
+  display: block;
+  width:90%;
+  padding:0rem 0.5rem;
+  background-color: var(--darkgrey);
+  margin:1.5rem;
+  border-radius: 0.8rem;
 }
