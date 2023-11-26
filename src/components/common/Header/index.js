@@ -10,20 +10,20 @@ function Header(){
                     CryptoTracker<span style={{color:'var(--blue)'}}>.</span>
                 </h1>
                 <div className='links'>
-                    <a href='/'>
-                        <p className='link'>Home</p></a>
-                    <a href='/compare'>
+                    <Link to='/'>
+                        <p className='link'>Home</p></Link>
+                    <Link to='/compare'>
                         <p className='link'>Compare</p>
-                    </a>
+                    </Link>
                     
-                    <a href='/watchlist'>
+                    <Link to='/watchlist'>
                         <p className='link'>Watchlist</p>
-                    </a>
-                    <a href='/Dashboard'>
+                    </Link>
+                    <Link to='/Dashboard'>
                        <Button text={'Dashboard'} 
                        outlined={true}
                        onClick={()=>console.log('btn clicked')}></Button>
-                       </a>
+                       </Link>
                 </div>
                 <div className='mobileDrawer'> 
                  <TemporaryDrawer></TemporaryDrawer>

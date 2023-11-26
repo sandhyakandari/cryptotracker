@@ -17,9 +17,9 @@ export default function MainComponent() {
             <h1 className='realtime-heading'>Real Time.</h1>
             <p className='trackparagraph'>Track crypto through a public api in real time. Vist the dashboard to do so!</p>
             <div className='btns'>
-           <a href='/Dashboard'> <Button text={'Dashboard'} 
+           <Link to='/Dashboard'> <Button text={'Dashboard'} 
                        onClick={()=>console.log('btn clicked')}></Button>
-                       </a>
+                       </Link>
                        <Link>
             <Button text={'Share'} 
                        outlined={true}
