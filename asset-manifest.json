@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptotracker/static/css/main.4adb08fa.css",
+    "main.js": "/cryptotracker/static/js/main.d9f38cbf.js",
+    "static/media/iphone.png": "/cryptotracker/static/media/iphone.080029ada53f0cd57453.png",
+    "static/media/gradint.png": "/cryptotracker/static/media/gradint.12a666ed10b3b442b534.png",
+    "index.html": "/cryptotracker/index.html",
+    "main.4adb08fa.css.map": "/cryptotracker/static/css/main.4adb08fa.css.map",
+    "main.d9f38cbf.js.map": "/cryptotracker/static/js/main.d9f38cbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4adb08fa.css",
+    "static/js/main.d9f38cbf.js"
+  ]
+}
