@@ -37,9 +37,9 @@ function WatchlistPage() {
                 No Items in the Watchlist
               </h1>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <a href="/dashboard">
+                <Link to="/Dashboard">
                   <Button text={"Dashboard"} />
-                </a>
+                </Link>
               </div>
             </div>
           ) : (
